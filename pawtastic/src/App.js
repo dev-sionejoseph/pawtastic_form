@@ -43,9 +43,12 @@ export default class App extends Component {
               <input type="text" name='name' value={this.state.name} onChange={this.handleChange}/>
               
             </label>
-            <label>
+            <label >
              <img src='#' alt='Camera Icon'></img>
-             <input type="file" name='photo' value={this.state.photo} placeholder='Upload a photo'/>
+             <div id='uploadWrap'>
+                <button id= 'upload'>Upload a photo</button>
+                <input id='fileInput' type="file" name='photo' value={this.state.photo} placeholder='Upload a photo'/>
+             </div>
             </label>
 
             <br/>

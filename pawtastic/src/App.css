@@ -1,0 +1,21 @@
+#uploadWrap {
+  display: inline-flex;
+}
+
+/* set positon to relative so new button could overlap old input */
+
+#upload {
+  background-color: peachpuff;
+  height: auto;
+  width: auto;
+  position: relative;
+}
+
+/* set opacity and padding to 0, and position to absolute, 
+so that default file input is hidden, but clickable */
+
+#fileInput {     
+  position: absolute;
+  padding: 0;
+  opacity: 0;
+}
