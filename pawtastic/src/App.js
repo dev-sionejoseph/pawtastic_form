@@ -26,9 +26,7 @@ export default class App extends Component {
   }
 
   handleSubmit(event) {
-    alert(`A name was submitted: ${this.state.value}`);
     event.preventDefault();
-
   }
 
   render() {
@@ -43,10 +41,11 @@ export default class App extends Component {
             <label>
               Name
               <input type="text" name='name' value={this.state.name} onChange={this.handleChange}/>
+              
             </label>
             <label>
-              <image src="#">Camera Icon</image>
-              <a href='#'>Upload a Photo</a>
+             <img src='#' alt='Camera Icon'></img>
+             <input type="file" name='photo' value={this.state.photo} placeholder='Upload a photo'/>
             </label>
 
             <br/>
