@@ -6,7 +6,9 @@ export default class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
-        value:'' 
+        name:'',
+        breed:'',
+        birthday:'', 
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
@@ -16,9 +18,10 @@ export default class App extends Component {
   handleChange(event) {
     event.preventDefault()
 
+    let title = event.target.name
+
     this.setState({
-      name : event.target.value,
-      value : event.target.value
+      [title]: event.target.value,
     })
   }
 
@@ -39,7 +42,7 @@ export default class App extends Component {
           <form onSubmit={this.handleSubmit}>
             <label>
               Name
-              <input type="text" onChange={this.handleChange}/>
+              <input type="text" name='name' value={this.state.name} onChange={this.handleChange}/>
             </label>
             <label>
               <image src="#">Camera Icon</image>
@@ -50,11 +53,11 @@ export default class App extends Component {
 
             <label>  
               Breed
-              <input type="text" onChange={this.handleChange}/>
+              <input type="text" name='breed' value={this.state.breed} onChange={this.handleChange}/>
             </label>
             <label>
               Birthday
-              <input type="text" onChange={this.handleChange}/>
+              <input type="text" name='birthday' value={this.state.birthday} onChange={this.handleChange}/>
             </label>
 
             <br />
