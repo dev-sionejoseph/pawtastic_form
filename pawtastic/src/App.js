@@ -65,15 +65,15 @@ export default class App extends Component {
             <br />
 
             <label>
-              Gender
-              <select>
+              Gender <br />
+              <select size="2">
                 <option value="Female">Female</option>
                 <option value="Male">Male</option>
               </select>
             </label>
             <label>
-              Spayed or Neutered
-              <select>
+              Spayed or Neutered <br />
+              <select size="2">
                 <option value="Yes">Yes</option>
                 <option value="No">No</option>
               </select>
@@ -82,8 +82,8 @@ export default class App extends Component {
             <br />
             
             <label>
-              Weight
-              <select>
+              Weight <br />
+              <select size="4">
                 <option value="0-25">0-25 lbs</option>
                 <option value="25-50">25-50 lbs</option>
                 <option value="50-100">50-100 lbs</option>
