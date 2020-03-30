@@ -9,8 +9,10 @@ export default class App extends Component {
     return (
       <div id='wrapper'> 
         <Sidebar id='sidebar'/>
-        <Form id='form'/>
-        <NavButtons id='navbuttons'/>
+        <div id='rightSide'>
+          <Form id='form'/>
+          <NavButtons id='navbuttons'/>
+        </div>
       </div>
     );
   }
