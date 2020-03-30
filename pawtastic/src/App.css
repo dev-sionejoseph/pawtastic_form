@@ -23,17 +23,28 @@ form {
   width: 100%;
   background-color: cornflowerblue;
 }
+
 select {
   padding: 0;
   height: 50px;
   width: 200px;
   background-color: pink;
 }
-option {
+
+.twoOptions option {
+  display:inline-table;
+  height: 100%;
+  width: 50%;
+  text-align: center;
+}
+
+.fourOptions option {
   display:inline-table;
   height: 100%;
   width: 25%;
+  text-align: center;
 }
+
 #uploadWrap {
   display: inline-flex;
 }
