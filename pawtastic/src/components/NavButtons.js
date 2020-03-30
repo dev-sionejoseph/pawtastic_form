@@ -1,21 +1,23 @@
-export default class App extends Component {
+import React, {Component} from 'react';
+
+export default class NavButtons extends Component {
     constructor(props) {
       super(props)
       this.state = {
           pages:[], // this would be a pages array, maybe?
           pageNum: 0, // I'd increment or decrement this number when back or next is clicked
-          currentPage: // I would set this to this.state.pages and set the index to pageNum 
+          currentPage: '' // I would set this to this.state.pages and set the index to pageNum 
       }
       this.handleNext = this.handleNext.bind(this)
       this.handleBack = this.handleBack.bind(this)
       }
     
-  
-    handleClick(event) {
-      // I would set up this method to handle the clicking of the nav buttons.
+  // I would set up the following methods to handle the clicking of the nav buttons.
+   
+    handleBack(event) { 
     }
-  
-    handleSubmit(event) {
+    
+    handleNext(event) {
       event.preventDefault();
     }
   
