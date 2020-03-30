@@ -1,7 +1,13 @@
+
+
 #wrapper{
-  width: 100vh;
+  width: 100vw;
   height: 100vh;
-  background-color: none;
+  background-color: #9497A7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 #navWrap {
@@ -43,6 +49,10 @@ select {
   width: 25%;
   text-align: center;
 }
+
+/* #rightSide {
+  float: right;
+} */
 
 #uploadWrap {
   display: inline-flex;
