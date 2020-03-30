@@ -7,12 +7,10 @@ import NavButtons from './components/NavButtons'
 export default class App extends Component {
   render() {
     return (
-      <div>
-        <div>
-
-        </div>
-        <Form />
-        <NavButtons />
+      <div id='wrapper'>
+      
+        <Form id='form'/>
+        <NavButtons id='navbuttons'/>
 
       </div>
     );
