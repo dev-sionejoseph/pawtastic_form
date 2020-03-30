@@ -30,7 +30,7 @@ export default class Form extends Component {
   
     render() {
       return (
-        <div>
+        <div id='formWrap'>
             <p>Yay, we love dogs! Give us the basics about your pup.</p>
             <form onSubmit={this.handleSubmit}>
               <label>

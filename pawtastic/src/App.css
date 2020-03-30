@@ -34,6 +34,11 @@ nav {
   background-color: #faeceb;
 }
 
+#formWrap {
+  width: 100%;
+  height: 80%;
+  background-color: faeceb;
+}
 form {
   width: 100%;
   height: 100%;
