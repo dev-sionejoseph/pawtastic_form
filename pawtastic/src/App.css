@@ -17,6 +17,8 @@
   background-size: contain;
   background-clip: border-box;
   /* position: relative; */
+  margin: 0;
+  background-color: #545871;
 }
 
 nav {
@@ -28,6 +30,8 @@ nav {
 #rightSide {
   height: 80%;
   width: 60%;
+  margin: 0;
+  background-color: #faeceb;
 }
 
 form {
