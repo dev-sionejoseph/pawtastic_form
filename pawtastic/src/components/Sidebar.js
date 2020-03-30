@@ -6,7 +6,18 @@ export default class Sidebar extends Component {
       return (
         <div id='navWrap'>
             <nav>
-                {/* <img src='./images/sidebarFull.png' style={{height:'100%', width:'auto'}}/> */}
+                {/* here I will add the nav elements, but make them "display:none" since they have nowhere to lead yet.
+                also, they aren't quite working like I'd like. */}
+                <input type='radio' id='Human Profile'/>
+                <label>Human Profile</label>
+                <input type='radio' id='Pet Basics'/>
+                <label>Pet Basics</label>
+                <input type='radio' id='Pet Details'/>
+                <label>Pet Details</label>
+                <input type='radio' id='Confirm'/>
+                <label>Confirm</label>
+
+
             </nav>
         </div>
       );
