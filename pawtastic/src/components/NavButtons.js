@@ -16,14 +16,14 @@ export default class NavButtons extends Component {
    
     handleBack(event) { 
     }
-    
+
     handleNext(event) {
       event.preventDefault();
     }
   
     render() {
       return (
-        <div>
+        <div id='navButtons'>
             <button value="Back">Back</button>
             <button value="Next">Next</button>
         </div>
