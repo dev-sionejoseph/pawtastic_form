@@ -33,6 +33,9 @@ export default class Form extends Component {
       return (
         <div id='formWrap'>
             <h1>Yay, we love dogs! Give us <br /> the basics about your pup.</h1>
+
+            {/* the convoluted mess below is form tag with each field being a label/input or select/option pair! */}
+
             <form onSubmit={this.handleSubmit}>
               <div id='rowOne'>
                 <label>

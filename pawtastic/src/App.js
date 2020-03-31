@@ -9,6 +9,9 @@ export default class App extends Component {
     return (
       <div id='wrapper'> 
         <Sidebar id='sidebar'/>
+        
+        {/* placed the instances of NavButtons and Form in a seperate, nested div so I could flex them */}
+
         <div id='rightSide'>
           <Form id='form'/>
           <NavButtons id='navbuttons'/>
