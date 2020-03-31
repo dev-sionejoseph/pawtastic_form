@@ -1,6 +1,6 @@
 # Pawtastic Prototype
 
-** wireframe and semi-functional prototype of a pup-centric business' entry form. **
+*wireframe and semi-functional prototype of a pup-centric business' entry form.*
 
 #### Wireframe: 
 
