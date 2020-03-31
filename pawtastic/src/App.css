@@ -146,6 +146,9 @@ so that default file input is hidden, but clickable */
 }
 
 button {
-  height: 90%;
+  height: 80%;
   width: 10%;
+  background-color: #545871;
+  color: #f0f1f8;
+  border-radius: 35%;
 }
