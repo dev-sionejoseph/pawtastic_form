@@ -17,6 +17,7 @@
   /* position: relative; */
   margin: 0;
   background-color: #545871;
+  border-radius: 5% 0 0 5%;
 }
 
 nav {
@@ -29,6 +30,7 @@ nav {
   height: 80%;
   width: 60%;
   background-color: #faeceb;
+  border-radius: 0 5% 5% 0;
 }
 
 h1 {
@@ -43,6 +45,7 @@ h1 {
   width: 100%;
   height: 90%;
   background-color: #faeceb;
+  border-radius: 0 5% 0 0;
   /* position: relative; */
   /* margin:0; */
   /* display: none; */
@@ -59,8 +62,13 @@ form {
   align-items: center;
 }
 
+label {
+  width: 50%;
+}
+
 input {
   background-color: #f0f1f8;
+  width: 50%;
 }
 
 select {
@@ -124,6 +132,7 @@ so that default file input is hidden, but clickable */
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-radius: 0 4% 30px 0;
 }
 
 button {
