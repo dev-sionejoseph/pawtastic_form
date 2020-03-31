@@ -9,3 +9,4 @@
 #### References
 -----
 1. http://jsfiddle.net/1uqrcgsa/6/
+2. https://www.behance.net/gallery/62932019/Pawtastic-UI-Kit-for-Adobe-XD
