@@ -1,6 +1,6 @@
 # Pawtastic Prototype
 
-** wireframe and semi-functional prototype of a pup-centric business' entry form. **
+*wireframe and semi-functional prototype of a pup-centric business' entry form.*
 
 #### Wireframe: 
 
@@ -8,4 +8,5 @@
 
 #### References
 -----
-1.
+1. http://jsfiddle.net/1uqrcgsa/6/
+2. https://www.behance.net/gallery/62932019/Pawtastic-UI-Kit-for-Adobe-XD
