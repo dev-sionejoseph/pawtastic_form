@@ -36,7 +36,7 @@ export default class Form extends Component {
             <form onSubmit={this.handleSubmit}>
               <div id='rowOne'>
                 <label>
-                  Name
+                  Name <br />
                   <input type="text" name='name' value={this.state.name} onChange={this.handleChange}/>  
                 </label>
                 <label >
@@ -49,11 +49,11 @@ export default class Form extends Component {
               </div>
               <div id='rowTwo'>
                 <label>  
-                  Breed
+                  Breed <br />
                   <input type="text" name='breed' value={this.state.breed} onChange={this.handleChange}/>
                 </label>
                 <label>
-                  Birthday
+                  Birthday <br />
                   <input type="text" name='birthday' value={this.state.birthday} onChange={this.handleChange}/>
                 </label>
               </div>

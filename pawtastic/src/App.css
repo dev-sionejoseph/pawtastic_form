@@ -62,13 +62,19 @@ form {
   align-items: center;
 }
 
+#rowOne, #rowTwo, #rowThree{
+  width: 80%;
+  display: flex;
+  /* background-color: greenyellow; */
+}
+
 label {
-  width: 50%;
+  width: 30%;
 }
 
 input {
   background-color: #f0f1f8;
-  width: 50%;
+  width: 90%;
 }
 
 select {
@@ -91,6 +97,10 @@ option::selection {
   height: 100%;
   width: 50%;
   text-align: center;
+}
+
+.fourOptions{
+  width: 100%;
 }
 
 .fourOptions option {
