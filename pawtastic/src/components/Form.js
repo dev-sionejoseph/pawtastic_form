@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+// import NavButtons from './NavButtons';
 
 
 export default class Form extends Component {
@@ -86,6 +87,7 @@ export default class Form extends Component {
                 </select>
               </label>
             </form>
+            {/* <NavButtons /> */}
         </div>
       );
     }
