@@ -119,4 +119,14 @@ so that default file input is hidden, but clickable */
   background-color: #f0f1f8;
   height: 10%;
   width: 100%;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  height: 90%;
+  width: 10%;
 }
